@@ -1,0 +1,9 @@
+repo --name=fedora --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-23&arch=$basearch
+repo --name=fedora-updates --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f23&arch=$basearch
+repo --name=fpmfusionfreerawhide --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-fedora-rawhide&arch=$basearch
+repo --name=rpmfusionnonfreerawhide --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-rawhide&arch=$basearch
+repo --name=rpmfusionfree --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-fedora-23&arch=$basearch
+repo --name=rpmfusionfreeupdates --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-fedora-updates-released-23&arch=$basearch
+repo --name=rpmfusionnonfree --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-23&arch=$basearch
+repo --name=rpmfusionnonfreeupdate --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-updates-released-23&arch=$basearch
+repo --name=google --baseurl=http://dl.google.com/linux/chrome/rpm/stable/x86_64
