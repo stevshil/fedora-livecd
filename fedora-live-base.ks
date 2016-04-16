@@ -99,6 +99,7 @@ system-switch-displaymanager-gnome
 thunderbird
 unison240
 unison240-gtk
+unrar
 vim-enhanced
 vinagre
 vlc
