@@ -7,3 +7,4 @@ repo --name=rpmfusionfreeupdates --mirrorlist=http://mirrors.rpmfusion.org/mirro
 repo --name=rpmfusionnonfree --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-23&arch=$basearch
 repo --name=rpmfusionnonfreeupdate --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-updates-released-23&arch=$basearch
 repo --name=google --baseurl=http://dl.google.com/linux/chrome/rpm/stable/x86_64
+repo --name=handbrake --baseurl=http://negativo17.org/repos/HandBrake/fedora-$releasever/$basearch/
